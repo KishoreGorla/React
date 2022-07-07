@@ -1,0 +1,61 @@
+What is React?
+React is a declarative, efficient, flexible open source front-end JavaScript library
+developed by Facebook in 2011. It follows the component-based approach for building 
+reusable UI components, especially for single page application. It is used for 
+developing interactive view layer of web and mobile apps. It was created by Jordan 
+Walke, a software engineer at Facebook. It was initially deployed on Facebook's News
+Feed section in 2011 and later used in its products like WhatsApp & Instagram.
+
+What are the features of React?
+React framework gaining quick popularity as the best framework among web developers. 
+The main features of React are:
+JSX
+Components
+One-way Data Binding
+Virtual DOM
+Simplicity
+Performance
+
+What is JSX?
+JSX stands for JavaScript XML. It is a React extension which allows writing JavaScript code that looks similar to HTML. It makes HTML file easy to understand. The JSX file makes the React application robust and boosts its performance. JSX provides you to write XML-like syntax in the same file where you write JavaScript code, and then preprocessor (i.e., transpilers like Babel) transform these expressions into actual JavaScript code. 
+Just like XML/HTML, JSX tags have a tag name, attributes, and children.
+
+Why we use JSX?
+It is faster than regular JavaScript because it performs optimization while translating
+the code to JavaScript.
+Instead of separating technologies by putting markup and logic in separate files,
+React uses components that contain both.
+t is type-safe, and most of the errors can be found at compilation time.
+It makes easier to create templates.
+
+What do you understand by Virtual DOM?
+A Virtual DOM is a lightweight JavaScript object which is an in-memory representation
+of real DOM. It is an intermediary step between the render function being called and
+the displaying of elements on the screen. It is similar to a node tree which lists 
+the elements, their attributes, and content as objects and their properties. The 
+render function creates a node tree of the React components and then updates this 
+node tree in response to the mutations in the data model caused by various actions 
+done by the user or by the system.
+
+Explain the purpose of render() in React.
+It is mandatory for each React component to have a render() function. Render function
+is used to return the HTML which you want to display in a component. If you need to
+rendered more than one HTML element, you need to grouped together inside single 
+enclosing tag (parent tag) such as <div>, <form>, <group> etc. This function returns
+the same result each time it is invoked.
+
+What is Props?
+Props stand for "Properties" in React. They are read-only inputs to components. Props
+are an object which stores the value of attributes of a tag and work similar to the 
+HTML attributes. It gives a way to pass data from the parent to the child components 
+throughout the application.
+
+It is similar to function arguments and passed to the component in the same way as 
+arguments passed in a function.
+
+What is an event in React?
+An event is an action which triggers as a result of the user action or system 
+generated event like a mouse click, loading of a web page, pressing a key, window 
+resizes, etc. In React, the event handling system is very similar to handling events
+in DOM elements. The React event handling system is known as Synthetic Event, which
+is a cross-browser wrapper of the browser's native event.
