@@ -1,0 +1,45 @@
+What are synthetic events in React?
+A synthetic event is an object which acts as a cross-browser wrapper around the 
+browser's native event. It combines the behavior of different browser's native event
+into one API, including stopPropagation() and preventDefault().
+
+Explain the Lists in React.
+Lists are used to display data in an ordered format. In React, Lists can be created 
+in a similar way as we create it in JavaScript. We can traverse the elements of the 
+list using the map() function.
+
+What is the significance of keys in React?
+A key is a unique identifier. In React, it is used to identify which items have changed,
+updated, or deleted from the Lists. It is useful when we dynamically created components
+or when the users alter the lists. It also helps to determine which components in a 
+collection needs to be re-rendered instead of re-rendering the entire set of components
+every time. It increases application performance.
+
+How are forms created in React?
+Forms allow the users to interact with the application as well as gather information 
+from the users. Forms can perform many tasks such as user authentication, adding user
+searching, filtering, etc. A form can contain text fields, buttons, checkbox, radio 
+button, etc.
+
+What are the different phases of React component's lifecycle?
+The different phases of React component's lifecycle are:
+Initial Phase: It is the birth phase of the React lifecycle when the component starts
+its journey on a way to the DOM. In this phase, a component contains the default 
+Props and initial State. These default properties are done in the constructor of a 
+component.
+Mounting Phase: In this phase, the instance of a component is created and added into 
+the DOM.
+Updating Phase: It is the next phase of the React lifecycle. In this phase, we get 
+new Props and change State. This phase can potentially update and re-render only when
+a prop or state change occurs. The main aim of this phase is to ensure that the 
+component is displaying the latest version of itself. This phase repeats again and 
+again.
+Unmounting Phase: It is the final phase of the React lifecycle, where the component 
+instance is destroyed and unmounted(removed) from the DOM.
+
+
+What are Pure Components?
+Pure components introduced in React 15.3 version. The React.Component and React.
+PureComponent differ in the shouldComponentUpdate() React lifecycle method. This 
+method decides the re-rendering of the component by returning a boolean value (true 
+or false). In React.Component, shouldComponentUpdate() method returns true by default.
