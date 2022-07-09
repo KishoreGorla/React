@@ -42,4 +42,4 @@ What are Pure Components?
 Pure components introduced in React 15.3 version. The React.Component and React.
 PureComponent differ in the shouldComponentUpdate() React lifecycle method. This 
 method decides the re-rendering of the component by returning a boolean value (true 
-or false). In React.Component, shouldComponentUpdate() method returns true by default.
+or false). In React.Component, shouldComponentUpdate() method returns true by default .
