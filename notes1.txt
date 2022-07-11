@@ -79,5 +79,5 @@ shouldComponentUpdate(): The Boolean value will be returned by this method which
 getSnapshotBeforeUpdate(): This method will provide access for the props as well as for the state before the update. 
 It is possible to check the previously present value before the update, even after the update.
 componentDidUpdate(): This method will be called after the component has been updated in the DOM.
-componentWillUnmount(): This method will be called when the component removal from the DOM is about to happen.
+componentWillUnmount(): This method will be called when the component removal from the DOM is about to happen. 
 
