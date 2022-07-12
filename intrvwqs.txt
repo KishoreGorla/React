@@ -1,0 +1,154 @@
+1. What is Virtual DOM.
+ 
+Virtual DOM is a technique and set of libraries/algorithms that allow us to 
+improve front end performance by avoiding direct work with 
+DOM and work only with a lightweight JavaScript object that ...
+A virtual DOM is a lightweight JavaScript representation of the Document Object Model (DOM) 
+used in declarative web frameworks such as React, Vue.js, and Elm. 
+Updating the virtual DOM is comparatively faster than updating the actual DOM (via js). 
+Thus, the framework is free to make unnecessary changes to the virtual DOM relatively cheaply. 
+The framework then finds the differences between the previ..
+
+2. What is React Lifecycle 
+
+A lifecycle in React can be thought of in 
+three different phases: mounting, updating, and unmounting. 
+Mounting occurs when the React component renders to the DOM (Document Object Model). 
+When changes are made to that component, 
+it enters the updating phase.
+So we can say that the developer will be able to produce a quality 
+application with the help of lifecycle methods and it also helps 
+developers to make sure to plan what and how to do it at different points of birth, growth, 
+or death of user interfaces.
+
+The various lifecycle methods are:
+
+constructor(): This method will be called when the component is initiated before anything has been done. 
+It helps to set up the initial state and initial values.
+getDerivedStateFromProps(): This method will be called just before element(s) rendering in the DOM. 
+It helps to set up the state object depending on the initial props. 
+The getDerivedStateFromProps() method will have a state as an argument and it returns an object that made changes to the state. 
+This will be the first method to be called on an updating of a component.
+render(): This method will output or re-render the HTML to the DOM with new changes. 
+The render() method is an essential method and will be called always while the remaining methods are optional and will be called only if they are defined.
+componentDidMount(): This method will be called after the rendering of the component. 
+Using this method, you can run statements that need the component to be already kept in the DOM.
+shouldComponentUpdate(): The Boolean value will be returned by this method which will specify whether React should proceed further with the rendering or not. The default value for this method will be True.
+getSnapshotBeforeUpdate(): This method will provide access for the props as well as for the state before the update. 
+It is possible to check the previously present value before the update, even after the update.
+componentDidUpdate(): This method will be called after the component has been updated in the DOM.
+componentWillUnmount(): This method will be called when the component removal from the DOM is about to happen.
+
+
+
+3. What are hooks and their type? 
+
+ hook is an opening statement (which is usually the first sentence) in an essay 
+that attempts to grab the reader’s attention so that they want to read on. 
+It can be done by using a few different types of hooks, which are a question, quote, statistic, or anecdote. 
+React Hooks must be called only at the top level. 
+It is not allowed to call them inside the nested functions, loops, or conditions.
+It is allowed to call the Hooks only from the React Function Components
+
+React Hooks are the built-in functions that permit developers for using the state and 
+lifecycle methods within React components. These are newly added features made available in React 16.8 version. 
+Each lifecycle of a component is having 3 phases which include mount, unmount, and update. 
+Along with that, components have properties and states. Hooks will allow using these methods 
+by developers for improving the reuse of code with higher flexibility navigating the component tree.
+
+
+
+4. What is prop in react 
+
+Props stand for "Properties." They are read-only components. 
+It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. 
+It gives a way to pass data from one component to other components. 
+It is similar to function arguments. 
+Props are passed to the component in the same way as arguments passed in a function.
+
+Props are immutable so we cannot modify the props from inside the component. 
+Inside the components, we can add attributes called props. 
+These attributes are available in the component as this.
+props and can be used to render dynamic data in our render method.
+
+When you need immutable data in the component, 
+you have to add props to reactDom.render() method in the main.js file of your 
+ReactJS project and used it inside the component in which you need.
+
+React props are not being passed in Components. 
+Sometimes you run into the problem that your React props are not being passed. ...
+React props key is undefined. 
+When rendering lists in React,you have to use a key prop identifying the element in the list. ...
+Pass props to Styled Components. Did you hear about styled components? ...
+Pass props with React Router. .
+React Props are like function arguments in JavaScript and attributes in HTML.
+
+To send props into a component,
+React is a component-based library that divides the UI into little reusable pieces. 
+In some cases, those components need to communicate 
+(send data to each other) and the way to pass data between components is by using props.
+
+
+
+5. What is React? 
+
+React is a JavaScript library that is used to build web user interfaces and components. 
+In other words, React is used to build the front end of websites that includes web pages, their layouts, and content. 
+A typical website has a frontend and backend.
+React is a JavaScript library created by Facebook
+
+React is a User Interface (UI) library
+
+React is a tool for building UI components
+eact is a JavaScript library for creating user interfaces. 
+Here are three places you'll find it being used: Web development. 
+This is where React got its start and where you'll find it used
+
+
+
+6. What is map in JavaScript? 
+The JavaScript Map object is used to map keys to values. 
+It stores each element as key-value pair. It operates the elements such as search, 
+update and delete on the basis of specified key.
+
+
+
+7. How to change the embedded server in spring boot?
+ 
+By default, the Spring Boot framework uses 
+Tomcat as the embedded server of choice. However, 
+you could override this default setting by specifying certain configuration settings. 
+For instance, if you want to use a Jetty dependency instead, then use an element in the XML configuration file, 
+and specify a element as well:
+we created a web-based Spring Boot application that uses 
+Embedded Tomcat as the default server running on the default port, 8080. 
+Spring Boot supports Tomcat, Undertow, and Jetty as embedded servers. 
+Now, we will change and/or configure the default embedded server and common properties to all the available servers.
+
+Spring Boot provides a convenient way of configuring dependencies with its starters. 
+For changing the embedded server, we will user its spring-boot-starter-undertow
+
+8. What is HashMap? 
+
+HashMap is a collection class in Java. You can use it to store key and value pairs. 
+Its performance depends on the initial capacity and the load factor.
+ashMap is a collection class in Java. 
+You can use it to store key and value pairs. 
+Its performance depends on the initial capacity and the load factor. 
+HashMap has various methods that allow you to use its hash table data structure. 
+
+HashMap is similar to the Hashtable class. 
+The difference between the two is that HashMap is unsynchronized while Hashtable isn’t. 
+Also, unlike Hashtable, 
+HashMap allows null values and the null key. 
+Since HashMap isn’t an ordered collection, 
+it doesn’t return the keys and values in the order you insert them. 
+Also, HashMap doesn’t sort the stored keys and values. If you want to use the HashMap class and its methods, 
+you’ll have to import java.util.HashMap (or its superclass).
+You can use duplicate values, but HashMap doesn’t allow duplicate keys. 
+It means one key can’t have multiple values, but multiple keys can have a single value. 
+You can use null keys only once, but you can use various null values. 
+HashMap provides no guarantees regarding the map’s order. 
+So, it doesn’t guarantee if the order will remain constant. 
+HashMap is very similar to Hashtable, with the only difference being that HashMap is unsynchronized. 
+HashMap implements a Serializable and Cloneable interface. 
