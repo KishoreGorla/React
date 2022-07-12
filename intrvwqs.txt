@@ -306,3 +306,113 @@ It takes place at runtime so do it is referred to as late binding.
 It uses overriding methods.
 It takes place using virtual function   
 Real objects use dynamic binding.
+
+
+19. What UseState and UseEffect do?
+ 
+
+To put it simply, both useState and useEffect enhance functional 
+components to make them do things that classes can but functional components (without hooks) cannot: 
+useState allows functional components to have state, 
+like this.state in class components.
+
+
+Corsair CX450 Unboxing And Model Differences (RPS0053 vs RPS0063).
+To put it simply, both useState and useEffect enhance functional components 
+to make them do things that classes can but functional components (without hooks) cannot:
+
+useState allows functional components to have state, like this.state in class components.
+useEffect allows functional components to have lifecycle methods 
+(such as componentDidMount, componentDidUpdate and componentWillUnmount) in one single API.
+
+useState() hook in React is a hook that allows us to state variables in our functional components.
+
+React has two types of components. 
+The first one is class components which are ES6 classes that extend from the React, 
+and the second one is functional components. 
+Class-to-components will have state and lifecycle methods: the message class extends React. 
+useState Hook is a special function which takes the 
+initial state as the arguments and returns it as an input array.
+Syntax: The first element is the initial state, and the second one is a function used to update the state.
+
+const [state, setState] = useState(initialState)  
+
+
+The useEffect Hook allows you to perform side effects in your components.
+
+Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+useEffect accepts two arguments. The second argument is optional.
+
+useEffect(<function>, <dependency>)
+
+useEffect runs on every render. That means that when the count changes, a render happens, which then triggers another effect.
+
+This is not what we want. There are several ways to control when side effects run.
+
+
+20. How many times can we use USeEffect? 
+
+our useEffect is executed only once per render cycle, 
+but you have several state updates in your useEffect which cause a re-render. Hence you get a lot of alerts. 
+See a demo of your code and see the console.logs as well as comments
+
+he React hook useEffect helps in adding componentDidUpdate and componentDidMount combined lifecycle in React’s functional component.
+
+So far we know we can add lifecycle methods in stateful component only.
+
+ we run it, we will see the console log and alert on every render cycle. 
+Here we can call http requests also inside useEffect. 
+Now this is similar to componentDidUpdate lifecycle of stateful component.
+
+We can add multiple useEffect functions in a single component.
+
+
+21. Where we can use Virtual Dom? 
+
+A virtual DOM is a lightweight JavaScript representation of the Document Object Model (DOM) used in declarative 
+web frameworks such as React, Vue.js, and Elm. 
+Updating the virtual DOM is comparatively faster than updating the actual DOM (via js). 
+Thus, the framework is free to make unnecessary changes to the virtual DOM relatively cheaply.
+
+Virtual DOM is a technique and set of libraries/algorithms 
+that allow us to improve front end performance by avoiding direct work with DOM and 
+work only with a lightweight JavaScript object that ...
+
+As a front-end developer, you might have had to manipulate Document Object Model(DOM) when you build your application. 
+The problem is: the bigger your app grows, the more complicated you have to deal with DOM management. 
+
+Recently, frameworks or libraries based on javascript are growing rapidly in order to 
+help developers resolve this issue.
+\
+
+22. ES6 Function? 
+
+Functions are the building blocks of readable, maintainable, and reusable code. 
+Functions are defined using the function keyword. 
+Following is the syntax for defining a standard function.
+
+function function_name() {
+// function body
+}
+To force execution of the function, it must be called. 
+This is called as function invocation. Following is the syntax to invoke a function.
+
+A function is the set of input statements, which performs specific computations and produces output. 
+It is a block of code that is designed for performing a particular task. 
+It is executed when it gets invoked (or called). Functions allow us to reuse and write the code in an organized way. 
+Functions in JavaScript are used to perform operations.
+
+In JavaScript, functions are defined by using function keyword followed by a name and parentheses (). 
+The function name may include digits, letters, dollar sign, and underscore. 
+The brackets in the function name may consist of the name of parameters separated by commas. 
+The body of the function should be placed within curly braces {}.
+
+The syntax for defining a standard function is as follows:
+
+function function_name() {  
+    //body of the function  
+}   
+
+
+
