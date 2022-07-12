@@ -152,3 +152,157 @@ HashMap provides no guarantees regarding the map’s order.
 So, it doesn’t guarantee if the order will remain constant. 
 HashMap is very similar to Hashtable, with the only difference being that HashMap is unsynchronized. 
 HashMap implements a Serializable and Cloneable interface. 
+
+
+
+
+
+8. What is HashMap? 
+
+HashMap is a collection class in Java. You can use it to store key and value pairs. 
+Its performance depends on the initial capacity and the load factor.
+ashMap is a collection class in Java. 
+You can use it to store key and value pairs. 
+Its performance depends on the initial capacity and the load factor. 
+HashMap has various methods that allow you to use its hash table data structure. 
+
+HashMap is similar to the Hashtable class. 
+The difference between the two is that HashMap is unsynchronized while Hashtable isn’t. 
+Also, unlike Hashtable, 
+HashMap allows null values and the null key. 
+Since HashMap isn’t an ordered collection, 
+it doesn’t return the keys and values in the order you insert them. 
+Also, HashMap doesn’t sort the stored keys and values. If you want to use the HashMap class and its methods, 
+you’ll have to import java.util.HashMap (or its superclass).
+You can use duplicate values, but HashMap doesn’t allow duplicate keys. 
+It means one key can’t have multiple values, but multiple keys can have a single value. 
+You can use null keys only once, but you can use various null values. 
+HashMap provides no guarantees regarding the map’s order. 
+So, it doesn’t guarantee if the order will remain constant. 
+HashMap is very similar to Hashtable, with the only difference being that HashMap is unsynchronized. 
+HashMap implements a Serializable and Cloneable interface. 
+
+9. What are JSX, Call back Function?  
+JSX stands for JavaScript XML.
+
+JSX allows us to write HTML in React.
+
+JSX makes it easier to write and add HTML in React.
+JSX allows us to write HTML elements in JavaScript and place them in the DOM without
+ any createElement()  and/or appendChild() methods.
+
+Using JSX, you may write succinct HTML/XML-like structures 
+(e.g., DOM-like tree structures) in the same file as JavaScript code, 
+and Babel will convert these expressions into actual JavaScript code. 
+Instead of putting JavaScript into HTML as in the past, 
+JSX allows us to put HTML into JavaScript.
+
+A callback function is a function that is passed as an argument to another function, 
+to be “called back” at a later time. 
+A function that accepts other functions as arguments is called a higher-order function, 
+which contains the logic for when the callback function gets executed. 
+It’s the combination of these two that allow us to extend our functionality.
+JavaScript runs code sequentially in top-down order. However, 
+there are some cases that code runs (or must run) after something else happens and also not sequentially. 
+This is called asynchronous programming.
+
+11. What is MongoDB? 
+MongoDB is a document database used to build highly available and scalable internet applications. 
+With its flexible schema approach, it’s popular with development teams using agile methodologies. 
+Offering drivers for all major programming languages, 
+MongoDB allows you to immediately start building your application without spending time configuring a database. 
+
+Instead of storing data in tables of rows or columns like SQL databases, each record in a 
+MongoDB database is a document described in BSON, a binary representation of the data. 
+Applications can then retrieve this information in a JSON format.
+
+12. What is State hook 
+
+The state hook provides a $set function to update the state. 
+The function accepts a partial state object so we don't need to provide all properties.
+
+The React useState Hook allows us to track state in a function component.
+
+State generally refers to data or properties that need to be tracking in an application.
+
+To use the useState Hook, we first need to import it into our component.
+
+At the top of your component, import the useState Hook.
+
+import { useState } from "react";
+useState is a Hook that lets you add React state to function components. 
+In a function component, we have no this, 
+so we can’t assign or read this.state. Instead, we call the useState Hook directly inside our component:
+
+import React, { useState } from 'react';
+
+function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+13. What is the output of console.log(a) statement  
+The console.log () method outputs a message to the web console. 
+The message may be a single string (with optional substitution values), 
+or it may be any one or more JavaScript objects. Note: This feature is available in Web Workers
+
+14. What are Error boundaries
+
+Error boundaries work like a JavaScript catch {} block, but for components. 
+Only class components can be error boundaries. 
+In practice, most of the time you’ll want to declare an error boundary component 
+once and use it throughout your application. 
+Note that error boundaries only catch errors in the components below them in the tree.  
+Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, 
+log those errors, 
+and display a fallback UI instead of the component tree that crashed. 
+Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, 
+log those errors, and display a fallback UI instead of the component tree 
+
+
+15. write code to create button in functional component?
+
+import React from 'react';
+
+
+
+const Button = () => {
+
+    return (
+
+        <button className="button">Generate Countdown </button>
+
+    )
+
+}
+
+
+
+export default Button;
+
+
+17. What are methods in React?  
+
+React has four built-in methods that gets called, in this order, when mounting a component: 
+constructor () getDerivedStateFromProps () render () componentDidMount ()
+
+
+
+18. Explain static and dynamic overloading.  
+
+Overloaded methods are resolved (deciding which method to be called when there are multiple methods with the same name) 
+using static binding while overridden methods use dynamic binding, i.e, at run time. 
+Static Binding The binding which can be resolved at compile time by the compiler is known as static or early binding.
+
+ Static Binding                                             
+It takes place at compile time for                       
+which is referred to as early binding
+It uses overloading more precisely operator overloading method
+It takes place using normal functions 
+Real objects never use static binding
+
+
+Dynamic Binding
+It takes place at runtime so do it is referred to as late binding.  
+It uses overriding methods.
+It takes place using virtual function   
+Real objects use dynamic binding.
