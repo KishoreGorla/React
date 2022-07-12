@@ -416,3 +416,105 @@ function function_name() {
 
 
 
+
+
+23.Error vs Exception Difference? 
+		Errors							Exceptions
+1.The error indicates trouble that primarily
+occurs due to the scarcity of system resources. 1.The exceptions are the issues that can appear at runtime and compile time.
+2.It is not possible to recover from an error. 	2.It is possible to recover from an exception.
+3.In java, all the errors are unchecked.	3.In java, the exceptions can be both checked and unchecked.
+4.The system in which the program 
+is running is responsible for errors.	        4.The code of the program is accountable for exceptions.
+5.They are described in the 
+java.lang.Error package.			5.They are described in java.lang.Exception package
+
+24. How can we find the prime no.?  
+By the definition of a prime number, we know that the prime numbers have only two 
+factors present in it. The two factors would be 1 and the original number itself. 
+Hence, we need to find here the numbers which consist of only two factors. This is 
+possible by using a simple method, which is called prime factorisation.
+
+25. Which methods can we use to pick the element randomly from the arraylist?  
+ArrayList is a part of collection framework and is present in java.util package. 
+It provides us with dynamic arrays in Java.
+Generating random numbers from the list have a good utility value 
+There are various methods to get a random element from the ArrayList:
+Using Math.random()
+Using ArrayList Shuffle
+Using Random class
+
+26. OOPs Concept explain 
+Object-oriented programming is a model that provides different types of concepts, 
+such as inheritance, abstraction, polymorphism, etc. These concepts aim to implement 
+real-world entities in programs. They create working methods and variables to reuse 
+them without compromising security.
+List of OOPs Concepts in Java
+Objects
+Classes
+Object 
+Class
+Abstraction
+Inheritance 
+Polymorphism
+Encapsulation
+
+What are Objects?
+Objects are always called instances of a class which are created from class in java
+or any other language. They have states and behaviour.
+What are Classes?
+Classes are like object constructors for creating objects. The collection of objects
+is said to be a class. Classes are said to be logical quantities. Classes don’t 
+consume any space in the memory.
+What is Abstraction?  
+Abstraction is a process which displays only the information needed and hides the 
+unnecessary information. We can say that the main purpose of abstraction is data 
+hiding. Abstraction means selecting data from a large number of data to show the 
+information needed, which helps in reducing programming complexity and efforts.
+What is Inheritance?
+Inheritance is a method in which one object acquires/inherits another object’s 
+properties, and inheritance also supports hierarchical classification. The idea 
+behind this is that we can create new classes built on existing classes, i.e., when 
+you inherit from an existing class, we can reuse methods and fields of the parent 
+class.  
+What is Polymorphism?
+Polymorphism refers to many forms, or it is a process that performs a single action
+in different ways. It occurs when we have many classes related to each other by 
+inheritance. Polymorphism is of two different types, i.e., compile-time polymorphism
+and runtime polymorphism. One of the examples in Compile time polymorphism is that 
+when we overload a static method in java. Run time polymorphism is also called a 
+dynamic method dispatch is a method in which a call to an overridden method is 
+resolved at run time rather than compile time.
+What is Encapsulation?
+Encapsulation is one of the concepts in OOPs concepts; it is the process that binds 
+together the data and code into a single unit and keeps both from being safe from 
+outside interference and misuse. In this process, the data is hidden from other 
+classes and can be accessed only through the current class’s methods.
+
+27. What is spring? 
+The Spring Framework (Spring) is an open-source application framework that provides 
+infrastructure support for developing Java applications. One of the most popular 
+Java Enterprise Edition (Java EE) frameworks, Spring helps developers create high 
+performing applications using plain old Java objects (POJOs).
+
+28. What are Props and State? 
+	PROPS								STATE
+
+1.The Data is passed from one component to another.	1.The Data is passed within the component only.
+2.It is Immutable (cannot be modified).			2.It is Mutable ( can be modified).
+3.Props can be used with state and functional 
+components.					        3.State can be used only with the state components/class component (Before 16.0).
+4.Props are read-only.					4.State is both read and write.
+
+29. Difference Between Interface and Abstract Class 
+	Abstract class							Interface
+1) Abstract class can have abstract and non-abstract methods.	1.Interface can have only abstract methods. Since Java 8, it can have default and static methods also.
+2) Abstract class doesn't support multiple inheritance.		2.Interface supports multiple inheritance.
+3) Abstract class can have final, non-final, static and 
+non-static variables.						3.Interface has only static and final variables.
+4) Abstract class can provide the implementation of interface.	4.Interface can't provide the implementation of abstract class.
+5) The abstract keyword is used to declare abstract class.	5.The interface keyword is used to declare interface.
+
+
+
+
