@@ -538,6 +538,11 @@ Each key can map to at most one value. It models the mathematical function abstr
 There are two types of polymorphism in Java: compile-time polymorphism and runtime 
 polymorphism. We can perform polymorphism in java by method overloading and method 
 overriding.
+34. Working of crud operation? 
+CRUD Meaning: CRUD is an acronym that comes from the world of computer programming 
+and refers to the four functions that are considered necessary to implement a 
+persistent storage application: create, read, update and delete. 
+
 
 
 
