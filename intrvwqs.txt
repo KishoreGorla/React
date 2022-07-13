@@ -518,3 +518,26 @@ non-static variables.						3.Interface has only static and final variables.
 
 
 
+
+
+
+30. What is Event Handling and write code for the Onclick Event? 
+<button onclick="myFunction()">Click me</button>
+
+31. Difference between final, finally and finalize? 
+The final, finally, and finalize are keywords in Java that are used in exception 
+handling. Each of these keywords has a different functionality. The basic difference
+between final, finally and finalize is that the final is an access modifier, finally
+is the block in Exception Handling and finalize is the method of object class.
+
+32. What is Map() in java 
+A Map is an object that maps keys to values. A map cannot contain duplicate keys: 
+Each key can map to at most one value. It models the mathematical function abstraction.
+
+33. Types of Polymorphism 
+There are two types of polymorphism in Java: compile-time polymorphism and runtime 
+polymorphism. We can perform polymorphism in java by method overloading and method 
+overriding.
+
+
+
