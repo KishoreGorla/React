@@ -600,3 +600,13 @@ function BooksList () {
 
 
 
+
+
+38. What is an actuator? 
+An actuator is a device that produces a motion by converting energy and signals 
+going into the system. The motion it produces can be either rotary or linear. An 
+actuator is a device that produces a motion by converting energy and signals going 
+into the system.
+
+
+
