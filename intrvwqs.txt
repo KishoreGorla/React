@@ -608,5 +608,9 @@ going into the system. The motion it produces can be either rotary or linear. An
 actuator is a device that produces a motion by converting energy and signals going 
 into the system.
 
+39. What is the promise in JavaScript? 
+The Promise object represents the eventual completion (or failure) of an 
+asynchronous operation and its resulting value
+
 
 
